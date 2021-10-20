@@ -14,9 +14,14 @@ import com.crisspian.fragment_guide_01.databinding.FragmentPrimerFragmentoBindin
 
 public class PrimerFragmento extends Fragment {
 
+    public static PrimerFragmento newInstance(){
+        return new PrimerFragmento();
+    }
     private FragmentPrimerFragmentoBinding binding;
     public static final int YES = 1;
     public static final int NO = 1;
+
+
 
 
 
@@ -39,6 +44,8 @@ public class PrimerFragmento extends Fragment {
         setupListener();
         return binding.getRoot();
 
+
+
     }
 
 
@@ -48,4 +55,8 @@ public class PrimerFragmento extends Fragment {
     }
     private void setupListener() {
     }
+
+
+
+
 }

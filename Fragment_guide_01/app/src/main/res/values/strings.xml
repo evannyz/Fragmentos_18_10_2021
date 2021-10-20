@@ -3,5 +3,7 @@
     <string name="question_one">¿Conoces este Meme?</string>
     <string name="yes_message">¡Si lo conozco!</string>
     <string name="no_message">No... buuu...</string>
+    <string name="open">Abrir Fragmento</string>
+    <string name="close">Cerrar Fragmento</string>
 
 </resources>
